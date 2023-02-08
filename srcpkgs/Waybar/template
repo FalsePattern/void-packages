@@ -14,6 +14,7 @@ hostmakedepends="cmake pkg-config glib-devel wayland-devel scdoc
  $(vopt_if dbusmenugtk gobject-introspection)"
 makedepends="libevdev-devel libinput-devel wayland-devel gtkmm-devel spdlog eudev-libudev-devel
  gtk-layer-shell-devel jsoncpp-devel libglib-devel libsigc++-devel fmt-devel chrono-date-devel
+ playerctl-devel
  $(vopt_if libnl libnl3-devel)
  $(vopt_if pulseaudio pulseaudio-devel)
  $(vopt_if dbusmenugtk libdbusmenu-gtk3-devel)
